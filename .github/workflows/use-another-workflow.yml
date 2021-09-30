@@ -8,3 +8,8 @@ jobs:
     uses: devkeydet/reusable-workflows-test/.github/workflows/reuse-me.yml@main
     with: 
       someInput: test
+  
+  call-workflow-too:
+    uses: devkeydet/reusable-workflows-test/.github/workflows/reuse-me-too.yml@main
+    with: 
+      anotherInput: test
