@@ -4,6 +4,6 @@ on:
   workflow_dispatch
 jobs:
   call-workflow:
-    uses: devkeydet/reusable-workflows-test/blob/main/.github/workflows/reuse-me.yml@635cfb2ee3c7eeea2313faea5dd9bed80ad12a1f
+    uses: devkeydet/reusable-workflows-test/blob/main/.github/workflows/reuse-me.yml@main
     with: 
       someInput: test
