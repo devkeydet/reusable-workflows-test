@@ -5,6 +5,6 @@ on:
   
 jobs:
   call-workflow:
-    uses: devkeydet/reusable-workflows-test/blob/main/.github/workflows/reuse-me.yml@main
+    uses: devkeydet/reusable-workflows-test/.github/workflows/reuse-me.yml@main
     with: 
       someInput: test
